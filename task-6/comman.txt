@@ -1,0 +1,1 @@
+kubectl exec -it -n exam-37 nginx -- sh -c curl flask-service/check-ingress

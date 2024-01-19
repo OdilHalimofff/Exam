@@ -1,0 +1,3 @@
+kubectl create deploy flask-app -n exam-37 --image nvrbckdown/flask-app
+kubectl port-forward -n exam-37 deploy/flask-app 3300:5000
+curl http://localhost:3300

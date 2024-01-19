@@ -1,0 +1,2 @@
+kubectl create -f ing.yaml
+curl http://zafar.arzongina.uz

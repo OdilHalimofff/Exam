@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx 
+  name: flask-app-ingress
+  namespace: exam-37
+spec:
+  rules:
+  - host: zafar.arzongina.uz
+    http:
+      paths:
+      - backend:
+          service:
+            name: flask-service
+            port:
+              number: 80
+        path: /
+        pathType: Prefix
+      - backend:
+          service:
+            name: flask-service
+            port:
+              number: 80
+        path: /check-ingress
+        pathType: Prefix

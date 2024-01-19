@@ -1,0 +1,3 @@
+kubectl run -n exam-37 nginx1 --image nginx --labels=project=practice,author=ZAFAR -o yaml >> two-pods.yaml
+kubectl run -n exam-37 nginx2 --image nginx --labels=project=practice,author=ZAFAR -o yaml >> two-pods.yaml
+kubectl create -f two-pods.yaml

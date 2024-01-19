@@ -1,0 +1,32 @@
+NAMESPACE   NAME     READY   STATUS             RESTARTS          AGE
+default     nginx1   1/1     Running            0                 40h
+default     nginx2   1/1     Running            0                 40h
+e-34        nginx1   1/1     Running            0                 40h
+exam-1      nginx1   0/1     CrashLoopBackOff   478 (2m33s ago)   40h
+exam-1      nginx2   0/1     CrashLoopBackOff   478 (96s ago)     40h
+exam-23     nginx1   1/1     Running            0                 40h
+exam-23     nginx2   1/1     Running            0                 40h
+exam-24     nginx1   1/1     Running            0                 40h
+exam-26     nginx1   1/1     Running            0                 40h
+exam-26     nginx2   1/1     Running            0                 40h
+exam-27     nginx1   1/1     Running            0                 40h
+exam-28     nginx1   1/1     Running            0                 40h
+exam-28     nginx2   1/1     Running            0                 40h
+exam-29     nginx1   1/1     Running            0                 40h
+exam-29     nginx2   1/1     Running            0                 40h
+exam-30     nginx1   1/1     Running            0                 40h
+exam-30     nginx2   1/1     Running            0                 40h
+exam-35     nginx1   1/1     Running            0                 40h
+exam-36     nginx1   1/1     Running            0                 40h
+exam-37     nginx1   1/1     Running            0                 6m3s
+exam-37     nginx2   1/1     Running            0                 5m55s
+exam-38     nginx1   1/1     Running            0                 40h
+exam-38     nginx2   1/1     Running            0                 40h
+exam-40     nginx1   1/1     Running            0                 40h
+exam-40     nginx2   1/1     Running            0                 40h
+exam-44     nginx1   1/1     Running            0                 39h
+exam-45     nginx1   0/1     CrashLoopBackOff   469 (89s ago)     39h
+exam-45     nginx2   0/1     Error              469 (5m13s ago)   39h
+exam-46     nginx1   1/1     Running            0                 40h
+exam-49     nginx1   1/1     Running            0                 40h
+exam-49     nginx2   1/1     Running            0                 40h

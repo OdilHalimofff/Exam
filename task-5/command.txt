@@ -1,0 +1,4 @@
+kubectl expose deployment flask-app --type=NodePort --name=flask-service --port=80 --target-port=5000 -n exam-37
+kubectl get service -n exam-37
+kubectl -n exam-37 run nginx --image nginx
+kubectl exec -it -n exam-37 nginx -- sh -c curl flask-service > output.txt

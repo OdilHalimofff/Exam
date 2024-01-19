@@ -1,0 +1,2 @@
+kubectl expose deployment frontend-app --type=NodePort --name=frontend-app --port=80 --target-port=80 -n exam-37
+kubectl exec -it -n exam-37 nginx -- sh -c curl frontend-app
